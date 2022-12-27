@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="Chức năng">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/TuDien"
+                    android:icon="@drawable/tudien"
+                    android:title="Từ điển"></item>
+                <item android:title="Ngữ pháp"></item>
+                <item android:title="Thi thử bài nghe"></item>
+                <item
+                    android:id="@+id/ThiThuBaiDoc"
+                    android:title="Thi thử bài đọc"></item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Thông tin khác">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Thông tin tác giả"></item>
+            </group>
+        </menu>
+    </item>
+</menu>
